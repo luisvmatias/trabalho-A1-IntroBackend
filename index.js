@@ -61,8 +61,8 @@ app.use((err, req, res, next) => {
 // Inicialização do servidor
 app.listen(PORT, () => {
   console.log('='.repeat(50));
-  console.log('🚀 Servidor rodando em http://localhost:' + PORT);
-  console.log('📚 Sistema de Gerenciamento Escolar - API REST');
-  console.log('⏰ Iniciado em: ' + new Date().toLocaleString('pt-BR'));
+  console.log(' Servidor rodando em http://localhost:' + PORT);
+  console.log(' Sistema de Gerenciamento Escolar - API REST');
+  console.log(' Iniciado em: ' + new Date().toLocaleString('pt-BR'));
   console.log('='.repeat(50));
 });

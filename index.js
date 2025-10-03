@@ -6,11 +6,11 @@ const PORT = 3000;
 app.use(express.json());
 
 // Importação das rotas
-const alunosRoutes = require('./src/routes/alunos');
-const professoresRoutes = require('./src/routes/professores');
-const turmasRoutes = require('./src/routes/turmas');
-const disciplinasRoutes = require('./src/routes/disciplinas');
-const matriculasRoutes = require('./src/routes/matriculas');
+const alunosRoutes = require('./routes/alunos');
+const professoresRoutes = require('./routes/professores');
+const turmasRoutes = require('./routes/turmas');
+const disciplinasRoutes = require('./routes/disciplinas');
+const matriculasRoutes = require('./routes/matriculas');
 
 // Middleware de log
 app.use((req, res, next) => {
